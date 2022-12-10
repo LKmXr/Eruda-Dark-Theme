@@ -10,8 +10,4 @@ function loadEruda() {
   })();
 }
 
-(function () {
-  if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') === 'true') {
-    loadEruda();
-  }
-})();
+loadEruda();
