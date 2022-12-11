@@ -1,3 +1,16 @@
-.text {
+.title {
+  font-size: large;
+  font-weight: bold;
+}
+
+#center {
+  align-items: center;
   text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.content {
+  font-size: medium;
+  font-weight: normal;
 }
